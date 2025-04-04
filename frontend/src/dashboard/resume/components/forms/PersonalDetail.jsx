@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from 'react';
 import { ResumeInfoContext } from '@/context/ResumeInfoContext';
 import { Input } from '@/components/ui/input';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/button';
 import { useParams } from 'react-router-dom';
 import GlobalApi from './../../../../../service/GlobalApi';
 import { LoaderCircle } from 'lucide-react';
