@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/button';
 import { Brain, LoaderCircle } from 'lucide-react';
 import { useState, useContext } from 'react'
 import { toast } from 'sonner';
