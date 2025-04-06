@@ -5,7 +5,7 @@ const API_URL = import.meta.env.VITE_STRAPI_URL;
 const API_KEY = import.meta.env.VITE_STRAPI_API_KEY;
 
 const axiosClient = axios.create({
-    baseURL: `${API_URL}/api`,
+    baseURL: import.meta.env.VITE_STRAPI_URL+'/api',
     headers: {
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${API_KEY}`,
