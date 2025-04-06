@@ -132,5 +132,10 @@ This project is licensed under the MIT License.
 
 ---
 
-## **🌐 Live Demo**  
-[Live Demo Link](https://your-demo-link.com)  
+## 🌐 Live Demos
+
+**Frontend**: [View Live Frontend](https://ai-resume-builder-frontend-beta.vercel.app/)  
+**Backend**: [View Backend API](https://ai-resume-builder-backend-ejnp.onrender.com)  
+
+**API Test Endpoint**:  
+`GET` https://ai-resume-builder-backend-ejnp.onrender.com/api/user-resumes
