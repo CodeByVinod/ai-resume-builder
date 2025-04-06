@@ -8,9 +8,10 @@ const axiosClient = axios.create({
     baseURL: import.meta.env.VITE_STRAPI_URL+'/api',
     headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${API_KEY}`,
+        'Authorization': `Bearer ${import.meta.env.VITE_STRAPI_API_KEY}`,
     },
 });
+
 
 const CreateNewResume = (data) => axiosClient.post('/user-resumes', data);
 
