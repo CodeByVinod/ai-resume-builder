@@ -5,14 +5,14 @@ An AI-powered web application that helps users create professional, ATS-optimize
 
 ---
 
-## **🌟 Features**  
+## ** Features**  
 - **Multi-Account Support:** Save unlimited resumes with user accounts  
 - **PDF Export:** Download your resume with a single click  
 - **Responsive Design:** Works seamlessly on all devices  
 
 ---
 
-## **🛠️ Tech Stack**  
+## ** Tech Stack**  
 ### **Frontend**  
 - React 18 + Vite  
 - Tailwind CSS + Shadcn/ui  
@@ -29,7 +29,7 @@ An AI-powered web application that helps users create professional, ATS-optimize
 
 ---
 
-## **📸 Project Screenshots**  
+## ** Project Screenshots**  
 Including screenshots in your README helps visualize the app.  
 1. **Main Dashboard:**  
    ![Dashboard](./assets/dashboard.png)  
@@ -50,7 +50,7 @@ Including screenshots in your README helps visualize the app.
 
 ---
 
-## **🚀 Installation**  
+## ** Installation**  
 ### **Prerequisites**  
 - Node.js v18+  
 - PostgreSQL database  
@@ -79,7 +79,7 @@ Including screenshots in your README helps visualize the app.
 
 ---
 
-## **🔧 Environment Variables**  
+## ** Environment Variables**  
 ### **Frontend (.env.local)**  
 ```env
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_key
@@ -96,7 +96,7 @@ GEMINI_API_KEY=your_google_ai_key
 
 ---
 
-## **🚀 Deployment**  
+## ** Deployment**  
 ### **Frontend (Vercel)**  
 ```bash
 vercel deploy --prod
@@ -109,7 +109,7 @@ docker run -d -p 1337:1337 resume-builder
 
 ---
 
-## **🤝 Contributing**  
+## ** Contributing**  
 1. Fork the repository  
 2. Create a feature branch:  
    ```bash
@@ -127,12 +127,12 @@ docker run -d -p 1337:1337 resume-builder
 
 ---
 
-## **📜 License**  
+## ** License**  
 This project is licensed under the MIT License.  
 
 ---
 
-## 🌐 Live Demos
+##  Live Demos
 
 **Frontend**: [View Live Frontend](https://ai-resume-builder-frontend-beta.vercel.app/)  
 **Backend**: [View Backend API](https://ai-resume-builder-backend-ejnp.onrender.com)  
