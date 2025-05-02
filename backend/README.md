@@ -2,7 +2,7 @@
 The backend for the **AI Resume Builder** project, built with **Strapi** and **PostgreSQL**. This server handles resume creation, user management, and AI integration via **Google Gemini API**.  
 
 
-## 🛠️ Tech Stack  
+##  Tech Stack  
 - **Backend Framework:** Strapi (Headless CMS)  
 - **Database:** PostgreSQL (Hosted on Render)  
 - **API Integration:** Google Gemini API  
@@ -10,18 +10,18 @@ The backend for the **AI Resume Builder** project, built with **Strapi** and **P
 - **Environment:** Node.js  
 - **Containerization:** Docker  
 
-## 🚀 Features  
+##  Features  
 - **Resume Management:** Create, update, and delete resumes  
 - **User Authentication:** Secure login via CLREK
 - **AI Integration:** Auto-suggest skills, summaries, and ATS optimization  
 
 
-## 🗃️ Prerequisites  
+##  Prerequisites  
 - Node.js v18+  
 - PostgreSQL database (Render-hosted)  
 - Google Gemini API key  
 
-## 🔧 Installation  
+##  Installation  
 ### 1. Clone the Repository  
 ```bash
 git clone https://github.com/yourusername/ai-resume-builder.git
@@ -69,7 +69,7 @@ Access the backend at: [http://localhost:1337](http://localhost:1337)
 - Trigger redeployment from the Render dashboard after updating the `.env` file.  
 
 
-## 🚦 Running Tests  
+##  Running Tests  
 Run unit tests with:  
 ```bash
 npm run test
@@ -81,7 +81,7 @@ npm run lint
 
 ---
 
-## 🔄 Maintenance  
+##  Maintenance  
 - Monitor the database expiration on Render and redeploy as necessary.  
 - Update packages regularly using:  
   ```bash
@@ -90,7 +90,7 @@ npm run lint
 
 ---
 
-## 🤝 Contributing  
+##  Contributing  
 1. Fork the repository  
 2. Create a new branch  
 3. Make your changes  
